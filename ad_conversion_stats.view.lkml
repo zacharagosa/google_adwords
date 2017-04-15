@@ -188,12 +188,12 @@ view: ad_conversion_stats_6747157124 {
 
   dimension: value_per_conversion {
     type: number
-    sql: ${TABLE}.ValuePerConversion * rand() * 10;;
+    sql: ${TABLE}.ValuePerConversion ;;
   }
 
   dimension: view_through_conversions {
     type: number
-    sql: ${TABLE}.ViewThroughConversions * rand() * 10 ;;
+    sql: ${TABLE}.ViewThroughConversions ;;
   }
 
   dimension_group: week {
